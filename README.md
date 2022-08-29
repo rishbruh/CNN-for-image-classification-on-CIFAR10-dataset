@@ -22,14 +22,8 @@ We observe from the above graphs that an increase in the layers of our MLP netwo
 the number of nodes shows a slight improvement in the performance of our MLP network as the MLP with 2 layers and 1024 nodes [1024,1024] has the best performance out of all our networks.
 Next, we implement our two CNN models and we compare the training and test accuracies of the 2 CNN models and our best performing MLP model, i.e., the one with 2 layers of 1024 nodes. The train and test accuracies/loss of our 3 models is given below-
 
-Accuracies	MLP [1024,1024]	CNN 1	CNN 2
-Training	0.081360	0.113660	0.087960
-Test	0.393600	0.52000	0.449400
+![image](https://user-images.githubusercontent.com/62597096/187312631-2dd44d03-709d-466d-9e57-8d1e089a9532.png)
 
-
-Loss	MLP [1024,1024]	CNN 1	CNN 2
-Training	530.976310	382.822867	486.372839
-Test	270.636827	208.918564	239.688155
 
 We observe from the above that both our CNN models perform significantly better than our MLP model. Further, we compare the training and validation curves of our two CNN models to observe the difference in the performance of the two.
 
