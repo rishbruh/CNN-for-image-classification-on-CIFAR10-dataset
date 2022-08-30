@@ -13,6 +13,7 @@ Next we define 4 different MLP networks, varying the nodes and layers to find ou
 1024 nodes [512,1024] and finally a MLP with 3 layers of 1024, 512 and 512 nodes [1024,512,512]. The training and validation accuracies for the above were plotted and are shown below –
 
 ![image](https://user-images.githubusercontent.com/62597096/187311249-40bcbd44-4515-4423-b436-cdedd4528799.png)
+
 ![image](https://user-images.githubusercontent.com/62597096/187311313-f13b805b-cb4b-45cc-9bbb-84ec1c6a865c.png)
 
 
