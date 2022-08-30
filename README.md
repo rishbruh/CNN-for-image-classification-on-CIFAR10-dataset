@@ -12,10 +12,7 @@ We have selected our loss function to be the Cross Entropy Loss as we are solvin
 Next we define 4 different MLP networks, varying the nodes and layers to find out which setting achieves the highest accuracy for our model. Firstly we have the MLP with 2 layers of 512 nodes [512,512], then an MLP with 2 layers of 1024 nodes [1024,1024], an MLP with 2 layers of 512 and
 1024 nodes [512,1024] and finally a MLP with 3 layers of 1024, 512 and 512 nodes [1024,512,512]. The training and validation accuracies for the above were plotted and are shown below –
 
-![image](https://user-images.githubusercontent.com/62597096/187311249-40bcbd44-4515-4423-b436-cdedd4528799.png)
-
-![image](https://user-images.githubusercontent.com/62597096/187311313-f13b805b-cb4b-45cc-9bbb-84ec1c6a865c.png)
-
+![image](https://user-images.githubusercontent.com/62597096/187541572-5f9c8ed6-4d63-4513-985e-7dfd593a00da.png)
 
 
 We observe from the above graphs that an increase in the layers of our MLP network does not contribute to an improvement in the accuracy of our model as the MLP with three layers [1024,512,512] has the poorest performance out of all our MLP networks. However, an increase in
