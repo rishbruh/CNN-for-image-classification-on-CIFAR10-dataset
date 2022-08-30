@@ -12,7 +12,7 @@ We have selected our loss function to be the Cross Entropy Loss as we are solvin
 Next we define 4 different MLP networks, varying the nodes and layers to find out which setting achieves the highest accuracy for our model. Firstly we have the MLP with 2 layers of 512 nodes [512,512], then an MLP with 2 layers of 1024 nodes [1024,1024], an MLP with 2 layers of 512 and
 1024 nodes [512,1024] and finally a MLP with 3 layers of 1024, 512 and 512 nodes [1024,512,512]. The training and validation accuracies for the above were plotted and are shown below –
 
-![image](https://user-images.githubusercontent.com/62597096/187541572-5f9c8ed6-4d63-4513-985e-7dfd593a00da.png)
+![image](https://user-images.githubusercontent.com/62597096/187541802-55436fe5-0665-4b3d-86d4-94fa90b63dd4.png)
 
 
 We observe from the above graphs that an increase in the layers of our MLP network does not contribute to an improvement in the accuracy of our model as the MLP with three layers [1024,512,512] has the poorest performance out of all our MLP networks. However, an increase in
@@ -25,9 +25,6 @@ Next, we implement our two CNN models and we compare the training and test accur
 
 We observe from the above that both our CNN models perform significantly better than our MLP model. Further, we compare the training and validation curves of our two CNN models to observe the difference in the performance of the two.
 
-![image](https://user-images.githubusercontent.com/62597096/187311336-932d6468-9c5d-41c6-a801-83460c0ca152.png)
-
-![image](https://user-images.githubusercontent.com/62597096/187311346-db20188b-1937-47dc-a405-dcb07a134ed5.png)
-
+![image](https://user-images.githubusercontent.com/62597096/187541717-d539b84a-8331-446f-b192-1ffe889c85dd.png)
 
 From the tabulation given above and the graphical outputs, we can conclude that the CNN1 performs far better than our CNN2 model. The pooling layer of the CNN2 model reduces the output dimension as compared to that of our CNN1 model, this reduces the training time of our CNN2 model and can be a reason for its comparatively poor performance. However, increasing the training time for both the CNNs and running them for a greater number of epochs should achieve a similar performance between the two and would guarantee a significantly better performance than any of our MLP models.
