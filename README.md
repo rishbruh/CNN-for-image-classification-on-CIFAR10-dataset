@@ -1,5 +1,5 @@
 # CNN-for-image-classification-on-CIFAR10-dataset
-Problem 1: CNN for Image Classification
+
 
 Preparing dataset and preprocessing:
 
