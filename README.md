@@ -1,4 +1,4 @@
-# CNN-for-image-classification-on-CIFAR10-dataset
+# CNN for image classification on CIFAR10 dataset
 
 
 Preparing dataset and preprocessing:
